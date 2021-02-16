@@ -41,7 +41,7 @@ public class Base {
 			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			//driver.get(prop.getProperty("URL"));
+			driver.get(prop.getProperty("URL"));
 			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 			
 			Thread.sleep(2000);
@@ -53,7 +53,7 @@ public class Base {
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "\\Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			
-			//driver.get(prop.getProperty("URL"));
+			driver.get(prop.getProperty("URL"));
 			//System.out.println(driver.getTitle());
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
