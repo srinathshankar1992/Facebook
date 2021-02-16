@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23102" started-at="2021-02-16T16:28:14Z" finished-at="2021-02-16T16:28:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23102" started-at="2021-02-16T16:28:14Z" finished-at="2021-02-16T16:28:37Z">
+      <class name="FB.FaceBook.Windowhandlers">
+        <test-method status="PASS" signature="windowhandler()[pri:0, instance:FB.FaceBook.Windowhandlers@604ed9f0]" name="windowhandler" duration-ms="23064" started-at="2021-02-16T16:28:14Z" finished-at="2021-02-16T16:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowhandler -->
+      </class> <!-- FB.FaceBook.Windowhandlers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

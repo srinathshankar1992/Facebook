@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [First]">
+  <listeners>
+    <listener class-name="FB.FaceBook.Listeners"/>
+    <listener class-name="Resources.Transforannotation"/>
+  </listeners>
+  <test thread-count="5" name="just check(failed)">
+    <classes>
+      <class name="FB.FaceBook.LoginPagePassCredentials">
+        <methods>
+          <include name="enterusernameAndPassword"/>
+        </methods>
+      </class> <!-- FB.FaceBook.LoginPagePassCredentials -->
+    </classes>
+  </test> <!-- just check(failed) -->
+</suite> <!-- Failed suite [First] -->
